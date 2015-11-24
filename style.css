@@ -1,0 +1,48 @@
+body						{	width: 520px;
+							font-family: Calibri;
+							font-size: 12px;	}
+							
+h1					{	font-family: Cambria;
+							font-size: 16px;
+							font-weight: bold;
+							text-align: left;	}
+							
+header					{	font-family: Cambria;
+							font-size: 16px;
+							font-weight: bold;	}
+							
+hr						{	clear: left;	}
+
+.italic					{ 	font-family: Calibri;
+							font-size: 12px;
+							text-align: left;
+							font-style: italic;	}
+							
+#info					{	margin-left: 10px;	}
+
+#main					{	border: 1px solid;
+							border-radius: 15px;
+							padding: 15px;	}
+							
+#column					{	column-count: 3;	}
+
+#mobile					{	display: none;	}
+
+#desktop				{	display: inline;
+							float: left;	}
+
+@media only screen and (max-width: 320px)	{
+
+	body					{	width: 300px;	}
+	
+	header				{	text-align: center;	}
+	
+	footer				{	text-align: center;	}
+	
+	.italic				{	text-align: center;	}
+	
+	#mobile				{	display: inline;	}
+
+	#desktop			{	display: none;	}
+	
+}
